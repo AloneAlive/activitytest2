@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".e_MainActivity">
+
+    <Button
+        android:id="@+id/main_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Send Standard Broadcast(include to activitytest1 App)"/>
+
+    <Button
+        android:id="@+id/main_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Send local Broadcast"/>
+
+    <Button
+        android:id="@+id/main_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Jump to Login Activity"/>
+
+    <Button
+        android:id="@+id/main_button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="send force offline broadcast"/>
+
+    <Button
+        android:id="@+id/main_button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Make Call"/>
+
+    <Button
+        android:id="@+id/main_button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Jump to f_contacts_view Activity"/>
+
+    <Button
+        android:id="@+id/main_button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Send notice"/>
+
+    <Button
+        android:id="@+id/main_button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Jump to camera activity"/>
+</LinearLayout>
